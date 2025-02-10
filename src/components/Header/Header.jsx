@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { FaSearch, FaBars } from 'react-icons/fa'
 import './Header.css'
 
 function Header() {
@@ -14,6 +15,8 @@ function Header() {
           <li><Link to="/projetos">Projetos</Link></li>
           <li><Link to="/sobre">Sobre Mim</Link></li>
           <li><Link to="/contato">Contato</Link></li>
+          {/* <li className="search-icon"><FaSearch /></li>
+          <li className="menu-icon"><FaBars /></li> */}
         </ul>
       </nav>
     </header>
