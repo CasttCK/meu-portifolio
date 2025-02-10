@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          Hello, there!
+          {'while (true) {\n  eat();\n  sleep();\n  code();\n  repeat();\n}'}
         </h1>
       </div>
     </section>
