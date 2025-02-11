@@ -11,16 +11,14 @@ function Hero() {
           </div>
           <div className="profile-info">
             <h1>Vinicius Kronemberger</h1>
-            <h2>A Bit About Me</h2>
+            <h2>Um pouco sobre mim</h2>
             <p className="bio">
-              Desenvolvedor Web com experiência em desenvolvimento de aplicações web modernas.
-              Especializado em React, Node.js e tecnologias relacionadas.
+              Sou um cientista da computação, focado em Backend e desenvolvimento de IA, como aplicações de visão computacional,
+              e deep learning.
+              Especializado em Java e Python.
             </p>
             <div className="profile-nav">
-              <Link to="/curriculo" className="nav-item active">Resume</Link>
-              <Link to="/projetos" className="nav-item">Projects</Link>
-              <Link to="/artigos" className="nav-item">Articles</Link>
-              <Link to="/sobre" className="nav-item">Personal</Link>
+              <Link to="/sobre" className="nav-item active">Leia mais sobre mim</Link>
             </div>
           </div>
         </div>
