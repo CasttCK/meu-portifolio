@@ -1,9 +1,10 @@
 import PageContainer from '../components/PageContainer/PageContainer'
+import UnderConstruction from '../components/UnderConstruction/UnderConstruction'
 
 function Contact() {
   return (
     <PageContainer title="Contato">
-      <p>Formulário de contato virá aqui</p>
+      <UnderConstruction />
     </PageContainer>
   )
 }

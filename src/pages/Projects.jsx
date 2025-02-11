@@ -1,9 +1,10 @@
 import PageContainer from '../components/PageContainer/PageContainer'
+import UnderConstruction from '../components/UnderConstruction/UnderConstruction'
 
 function Projects() {
   return (
     <PageContainer title="Projetos">
-      <p>Lista de projetos virá aqui</p>
+      <UnderConstruction />
     </PageContainer>
   )
 }
