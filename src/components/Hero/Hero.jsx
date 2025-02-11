@@ -1,5 +1,6 @@
 import './Hero.css'
 import { Link } from 'react-router-dom'
+import { FormattedMessage } from 'react-intl'
 
 function Hero() {
   return (
@@ -11,14 +12,14 @@ function Hero() {
           </div>
           <div className="profile-info">
             <h1>Vinicius Kronemberger</h1>
-            <h2>Um pouco sobre mim</h2>
+            <h2><FormattedMessage id="hero.about" /></h2>
             <p className="bio">
-              Sou um cientista da computação, focado em Backend e desenvolvimento de IA, como aplicações de visão computacional,
-              e deep learning.
-              Especializado em Java e Python.
+              <FormattedMessage id="hero.bio" />
             </p>
             <div className="profile-nav">
-              <Link to="/sobre" className="nav-item active">Leia mais sobre mim</Link>
+              <Link to="/sobre" className="nav-item active">
+                <FormattedMessage id="hero.readMore" />
+              </Link>
             </div>
           </div>
         </div>

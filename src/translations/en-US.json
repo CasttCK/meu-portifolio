@@ -1,0 +1,11 @@
+{
+  "nav.articles": "Articles",
+  "nav.resume": "Resume",
+  "nav.projects": "Projects",
+  "nav.about": "About Me",
+  "nav.contact": "Contact",
+  "hero.about": "About me",
+  "hero.bio": "I'm a computer scientist focused on Backend and AI development, such as computer vision applications and deep learning. Specialized in Java and Python.",
+  "hero.readMore": "Read more about me",
+  "common.underConstruction": "Page under construction"
+} 
