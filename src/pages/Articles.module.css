@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Para telas menores que 1200px, mostra 2 cards por linha */
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Para telas menores que 768px, mostra 1 card por linha */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+} 
